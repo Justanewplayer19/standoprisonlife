@@ -1,10 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Prison Life",
+   Name = "Prison Rizz",
    Icon = 0,
    LoadingTitle = "Prison Life Script",
-   LoadingSubtitle = "by anon",
+   LoadingSubtitle = "by kyri",
    ShowText = "Prison Life",
    Theme = "Default",
    ToggleUIKeybind = "K",
@@ -20,7 +20,7 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = false,
    KeySettings = {
-      Title = "Prison Life",
+      Title = "Kyri Hub",
       Subtitle = "Key System",
       Note = "No key required",
       FileName = "Key",
