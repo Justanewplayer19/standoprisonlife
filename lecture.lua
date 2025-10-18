@@ -17,7 +17,7 @@ if generalChannel then
    generalChannel = generalChannel:FindFirstChild("RBXGeneral")
 end
 
--- Listen for link code
+
 textChatService.MessageReceived:Connect(function(message)
    local text = message.Text
    
@@ -88,7 +88,7 @@ textChatService.MessageReceived:Connect(function(message)
    end
 end)
 
--- Kill aura loop
+
 rs.Heartbeat:Connect(function()
    if killAuraEnabled and killAuraTarget then
       if not killAuraTarget.Character or killAuraTarget.Character.Humanoid.Health <= 0 then
@@ -112,7 +112,7 @@ rs.Heartbeat:Connect(function()
    end
 end)
 
--- Follow owner
+
 rs.Heartbeat:Connect(function()
    if owner and not killAuraEnabled then
       local ownerPlayer = game.Players:GetPlayerByUserId(owner)
